@@ -1,5 +1,6 @@
 print("\n[1/4] 开始爬取数据...")
 from crawler import run_crawler
+import os
 stats = run_crawler()  # 调用新的爬虫
 
 def main():
