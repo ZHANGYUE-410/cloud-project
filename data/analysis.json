@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-12-23 17:52:34",
+  "total_records": 1000,
+  "books": 300,
+  "courses": 350,
+  "news": 350,
+  "books_categories": {
+    "文学": 100,
+    "历史": 100,
+    "计算机": 100
+  },
+  "courses_departments": {
+    "数学学院": 117,
+    "物理学院": 117,
+    "计算机学院": 116
+  },
+  "news_dates": "2024年数据"
+}

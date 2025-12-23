@@ -1,0 +1,2309 @@
+{
+  "sample_time": "2025-12-23 17:52:34",
+  "books_sample": [
+    {
+      "id": "book_1",
+      "title": "图书示例 1",
+      "author": "作者2",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_2",
+      "title": "图书示例 2",
+      "author": "作者3",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_3",
+      "title": "图书示例 3",
+      "author": "作者4",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_4",
+      "title": "图书示例 4",
+      "author": "作者5",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_5",
+      "title": "图书示例 5",
+      "author": "作者6",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_6",
+      "title": "图书示例 6",
+      "author": "作者7",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_7",
+      "title": "图书示例 7",
+      "author": "作者8",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_8",
+      "title": "图书示例 8",
+      "author": "作者9",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_9",
+      "title": "图书示例 9",
+      "author": "作者10",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_10",
+      "title": "图书示例 10",
+      "author": "作者1",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_11",
+      "title": "图书示例 11",
+      "author": "作者2",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_12",
+      "title": "图书示例 12",
+      "author": "作者3",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_13",
+      "title": "图书示例 13",
+      "author": "作者4",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_14",
+      "title": "图书示例 14",
+      "author": "作者5",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_15",
+      "title": "图书示例 15",
+      "author": "作者6",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_16",
+      "title": "图书示例 16",
+      "author": "作者7",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_17",
+      "title": "图书示例 17",
+      "author": "作者8",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_18",
+      "title": "图书示例 18",
+      "author": "作者9",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_19",
+      "title": "图书示例 19",
+      "author": "作者10",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_20",
+      "title": "图书示例 20",
+      "author": "作者1",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_21",
+      "title": "图书示例 21",
+      "author": "作者2",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_22",
+      "title": "图书示例 22",
+      "author": "作者3",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_23",
+      "title": "图书示例 23",
+      "author": "作者4",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_24",
+      "title": "图书示例 24",
+      "author": "作者5",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_25",
+      "title": "图书示例 25",
+      "author": "作者6",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_26",
+      "title": "图书示例 26",
+      "author": "作者7",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_27",
+      "title": "图书示例 27",
+      "author": "作者8",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_28",
+      "title": "图书示例 28",
+      "author": "作者9",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_29",
+      "title": "图书示例 29",
+      "author": "作者10",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_30",
+      "title": "图书示例 30",
+      "author": "作者1",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_31",
+      "title": "图书示例 31",
+      "author": "作者2",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_32",
+      "title": "图书示例 32",
+      "author": "作者3",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_33",
+      "title": "图书示例 33",
+      "author": "作者4",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_34",
+      "title": "图书示例 34",
+      "author": "作者5",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_35",
+      "title": "图书示例 35",
+      "author": "作者6",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_36",
+      "title": "图书示例 36",
+      "author": "作者7",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_37",
+      "title": "图书示例 37",
+      "author": "作者8",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_38",
+      "title": "图书示例 38",
+      "author": "作者9",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_39",
+      "title": "图书示例 39",
+      "author": "作者10",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_40",
+      "title": "图书示例 40",
+      "author": "作者1",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_41",
+      "title": "图书示例 41",
+      "author": "作者2",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_42",
+      "title": "图书示例 42",
+      "author": "作者3",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_43",
+      "title": "图书示例 43",
+      "author": "作者4",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_44",
+      "title": "图书示例 44",
+      "author": "作者5",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_45",
+      "title": "图书示例 45",
+      "author": "作者6",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_46",
+      "title": "图书示例 46",
+      "author": "作者7",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_47",
+      "title": "图书示例 47",
+      "author": "作者8",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_48",
+      "title": "图书示例 48",
+      "author": "作者9",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_49",
+      "title": "图书示例 49",
+      "author": "作者10",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_50",
+      "title": "图书示例 50",
+      "author": "作者1",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_51",
+      "title": "图书示例 51",
+      "author": "作者2",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_52",
+      "title": "图书示例 52",
+      "author": "作者3",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_53",
+      "title": "图书示例 53",
+      "author": "作者4",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_54",
+      "title": "图书示例 54",
+      "author": "作者5",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_55",
+      "title": "图书示例 55",
+      "author": "作者6",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_56",
+      "title": "图书示例 56",
+      "author": "作者7",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_57",
+      "title": "图书示例 57",
+      "author": "作者8",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_58",
+      "title": "图书示例 58",
+      "author": "作者9",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_59",
+      "title": "图书示例 59",
+      "author": "作者10",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_60",
+      "title": "图书示例 60",
+      "author": "作者1",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_61",
+      "title": "图书示例 61",
+      "author": "作者2",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_62",
+      "title": "图书示例 62",
+      "author": "作者3",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_63",
+      "title": "图书示例 63",
+      "author": "作者4",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_64",
+      "title": "图书示例 64",
+      "author": "作者5",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_65",
+      "title": "图书示例 65",
+      "author": "作者6",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_66",
+      "title": "图书示例 66",
+      "author": "作者7",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_67",
+      "title": "图书示例 67",
+      "author": "作者8",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_68",
+      "title": "图书示例 68",
+      "author": "作者9",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_69",
+      "title": "图书示例 69",
+      "author": "作者10",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_70",
+      "title": "图书示例 70",
+      "author": "作者1",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_71",
+      "title": "图书示例 71",
+      "author": "作者2",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_72",
+      "title": "图书示例 72",
+      "author": "作者3",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_73",
+      "title": "图书示例 73",
+      "author": "作者4",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_74",
+      "title": "图书示例 74",
+      "author": "作者5",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_75",
+      "title": "图书示例 75",
+      "author": "作者6",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_76",
+      "title": "图书示例 76",
+      "author": "作者7",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_77",
+      "title": "图书示例 77",
+      "author": "作者8",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_78",
+      "title": "图书示例 78",
+      "author": "作者9",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_79",
+      "title": "图书示例 79",
+      "author": "作者10",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_80",
+      "title": "图书示例 80",
+      "author": "作者1",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_81",
+      "title": "图书示例 81",
+      "author": "作者2",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_82",
+      "title": "图书示例 82",
+      "author": "作者3",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_83",
+      "title": "图书示例 83",
+      "author": "作者4",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_84",
+      "title": "图书示例 84",
+      "author": "作者5",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_85",
+      "title": "图书示例 85",
+      "author": "作者6",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_86",
+      "title": "图书示例 86",
+      "author": "作者7",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_87",
+      "title": "图书示例 87",
+      "author": "作者8",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_88",
+      "title": "图书示例 88",
+      "author": "作者9",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_89",
+      "title": "图书示例 89",
+      "author": "作者10",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_90",
+      "title": "图书示例 90",
+      "author": "作者1",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_91",
+      "title": "图书示例 91",
+      "author": "作者2",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_92",
+      "title": "图书示例 92",
+      "author": "作者3",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_93",
+      "title": "图书示例 93",
+      "author": "作者4",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_94",
+      "title": "图书示例 94",
+      "author": "作者5",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_95",
+      "title": "图书示例 95",
+      "author": "作者6",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_96",
+      "title": "图书示例 96",
+      "author": "作者7",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_97",
+      "title": "图书示例 97",
+      "author": "作者8",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    },
+    {
+      "id": "book_98",
+      "title": "图书示例 98",
+      "author": "作者9",
+      "category": "历史",
+      "year": 2023,
+      "type": "book"
+    },
+    {
+      "id": "book_99",
+      "title": "图书示例 99",
+      "author": "作者10",
+      "category": "计算机",
+      "year": 2021,
+      "type": "book"
+    },
+    {
+      "id": "book_100",
+      "title": "图书示例 100",
+      "author": "作者1",
+      "category": "文学",
+      "year": 2022,
+      "type": "book"
+    }
+  ],
+  "courses_sample": [
+    {
+      "id": "course_1",
+      "name": "课程示例 1",
+      "teacher": "教师2",
+      "department": "数学学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_2",
+      "name": "课程示例 2",
+      "teacher": "教师3",
+      "department": "物理学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_3",
+      "name": "课程示例 3",
+      "teacher": "教师4",
+      "department": "计算机学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_4",
+      "name": "课程示例 4",
+      "teacher": "教师5",
+      "department": "数学学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_5",
+      "name": "课程示例 5",
+      "teacher": "教师6",
+      "department": "物理学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_6",
+      "name": "课程示例 6",
+      "teacher": "教师7",
+      "department": "计算机学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_7",
+      "name": "课程示例 7",
+      "teacher": "教师8",
+      "department": "数学学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_8",
+      "name": "课程示例 8",
+      "teacher": "教师1",
+      "department": "物理学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_9",
+      "name": "课程示例 9",
+      "teacher": "教师2",
+      "department": "计算机学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_10",
+      "name": "课程示例 10",
+      "teacher": "教师3",
+      "department": "数学学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_11",
+      "name": "课程示例 11",
+      "teacher": "教师4",
+      "department": "物理学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_12",
+      "name": "课程示例 12",
+      "teacher": "教师5",
+      "department": "计算机学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_13",
+      "name": "课程示例 13",
+      "teacher": "教师6",
+      "department": "数学学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_14",
+      "name": "课程示例 14",
+      "teacher": "教师7",
+      "department": "物理学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_15",
+      "name": "课程示例 15",
+      "teacher": "教师8",
+      "department": "计算机学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_16",
+      "name": "课程示例 16",
+      "teacher": "教师1",
+      "department": "数学学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_17",
+      "name": "课程示例 17",
+      "teacher": "教师2",
+      "department": "物理学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_18",
+      "name": "课程示例 18",
+      "teacher": "教师3",
+      "department": "计算机学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_19",
+      "name": "课程示例 19",
+      "teacher": "教师4",
+      "department": "数学学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_20",
+      "name": "课程示例 20",
+      "teacher": "教师5",
+      "department": "物理学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_21",
+      "name": "课程示例 21",
+      "teacher": "教师6",
+      "department": "计算机学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_22",
+      "name": "课程示例 22",
+      "teacher": "教师7",
+      "department": "数学学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_23",
+      "name": "课程示例 23",
+      "teacher": "教师8",
+      "department": "物理学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_24",
+      "name": "课程示例 24",
+      "teacher": "教师1",
+      "department": "计算机学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_25",
+      "name": "课程示例 25",
+      "teacher": "教师2",
+      "department": "数学学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_26",
+      "name": "课程示例 26",
+      "teacher": "教师3",
+      "department": "物理学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_27",
+      "name": "课程示例 27",
+      "teacher": "教师4",
+      "department": "计算机学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_28",
+      "name": "课程示例 28",
+      "teacher": "教师5",
+      "department": "数学学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_29",
+      "name": "课程示例 29",
+      "teacher": "教师6",
+      "department": "物理学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_30",
+      "name": "课程示例 30",
+      "teacher": "教师7",
+      "department": "计算机学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_31",
+      "name": "课程示例 31",
+      "teacher": "教师8",
+      "department": "数学学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_32",
+      "name": "课程示例 32",
+      "teacher": "教师1",
+      "department": "物理学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_33",
+      "name": "课程示例 33",
+      "teacher": "教师2",
+      "department": "计算机学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_34",
+      "name": "课程示例 34",
+      "teacher": "教师3",
+      "department": "数学学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_35",
+      "name": "课程示例 35",
+      "teacher": "教师4",
+      "department": "物理学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_36",
+      "name": "课程示例 36",
+      "teacher": "教师5",
+      "department": "计算机学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_37",
+      "name": "课程示例 37",
+      "teacher": "教师6",
+      "department": "数学学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_38",
+      "name": "课程示例 38",
+      "teacher": "教师7",
+      "department": "物理学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_39",
+      "name": "课程示例 39",
+      "teacher": "教师8",
+      "department": "计算机学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_40",
+      "name": "课程示例 40",
+      "teacher": "教师1",
+      "department": "数学学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_41",
+      "name": "课程示例 41",
+      "teacher": "教师2",
+      "department": "物理学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_42",
+      "name": "课程示例 42",
+      "teacher": "教师3",
+      "department": "计算机学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_43",
+      "name": "课程示例 43",
+      "teacher": "教师4",
+      "department": "数学学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_44",
+      "name": "课程示例 44",
+      "teacher": "教师5",
+      "department": "物理学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_45",
+      "name": "课程示例 45",
+      "teacher": "教师6",
+      "department": "计算机学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_46",
+      "name": "课程示例 46",
+      "teacher": "教师7",
+      "department": "数学学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_47",
+      "name": "课程示例 47",
+      "teacher": "教师8",
+      "department": "物理学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_48",
+      "name": "课程示例 48",
+      "teacher": "教师1",
+      "department": "计算机学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_49",
+      "name": "课程示例 49",
+      "teacher": "教师2",
+      "department": "数学学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_50",
+      "name": "课程示例 50",
+      "teacher": "教师3",
+      "department": "物理学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_51",
+      "name": "课程示例 51",
+      "teacher": "教师4",
+      "department": "计算机学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_52",
+      "name": "课程示例 52",
+      "teacher": "教师5",
+      "department": "数学学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_53",
+      "name": "课程示例 53",
+      "teacher": "教师6",
+      "department": "物理学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_54",
+      "name": "课程示例 54",
+      "teacher": "教师7",
+      "department": "计算机学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_55",
+      "name": "课程示例 55",
+      "teacher": "教师8",
+      "department": "数学学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_56",
+      "name": "课程示例 56",
+      "teacher": "教师1",
+      "department": "物理学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_57",
+      "name": "课程示例 57",
+      "teacher": "教师2",
+      "department": "计算机学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_58",
+      "name": "课程示例 58",
+      "teacher": "教师3",
+      "department": "数学学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_59",
+      "name": "课程示例 59",
+      "teacher": "教师4",
+      "department": "物理学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_60",
+      "name": "课程示例 60",
+      "teacher": "教师5",
+      "department": "计算机学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_61",
+      "name": "课程示例 61",
+      "teacher": "教师6",
+      "department": "数学学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_62",
+      "name": "课程示例 62",
+      "teacher": "教师7",
+      "department": "物理学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_63",
+      "name": "课程示例 63",
+      "teacher": "教师8",
+      "department": "计算机学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_64",
+      "name": "课程示例 64",
+      "teacher": "教师1",
+      "department": "数学学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_65",
+      "name": "课程示例 65",
+      "teacher": "教师2",
+      "department": "物理学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_66",
+      "name": "课程示例 66",
+      "teacher": "教师3",
+      "department": "计算机学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_67",
+      "name": "课程示例 67",
+      "teacher": "教师4",
+      "department": "数学学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_68",
+      "name": "课程示例 68",
+      "teacher": "教师5",
+      "department": "物理学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_69",
+      "name": "课程示例 69",
+      "teacher": "教师6",
+      "department": "计算机学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_70",
+      "name": "课程示例 70",
+      "teacher": "教师7",
+      "department": "数学学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_71",
+      "name": "课程示例 71",
+      "teacher": "教师8",
+      "department": "物理学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_72",
+      "name": "课程示例 72",
+      "teacher": "教师1",
+      "department": "计算机学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_73",
+      "name": "课程示例 73",
+      "teacher": "教师2",
+      "department": "数学学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_74",
+      "name": "课程示例 74",
+      "teacher": "教师3",
+      "department": "物理学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_75",
+      "name": "课程示例 75",
+      "teacher": "教师4",
+      "department": "计算机学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_76",
+      "name": "课程示例 76",
+      "teacher": "教师5",
+      "department": "数学学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_77",
+      "name": "课程示例 77",
+      "teacher": "教师6",
+      "department": "物理学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_78",
+      "name": "课程示例 78",
+      "teacher": "教师7",
+      "department": "计算机学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_79",
+      "name": "课程示例 79",
+      "teacher": "教师8",
+      "department": "数学学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_80",
+      "name": "课程示例 80",
+      "teacher": "教师1",
+      "department": "物理学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_81",
+      "name": "课程示例 81",
+      "teacher": "教师2",
+      "department": "计算机学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_82",
+      "name": "课程示例 82",
+      "teacher": "教师3",
+      "department": "数学学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_83",
+      "name": "课程示例 83",
+      "teacher": "教师4",
+      "department": "物理学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_84",
+      "name": "课程示例 84",
+      "teacher": "教师5",
+      "department": "计算机学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_85",
+      "name": "课程示例 85",
+      "teacher": "教师6",
+      "department": "数学学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_86",
+      "name": "课程示例 86",
+      "teacher": "教师7",
+      "department": "物理学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_87",
+      "name": "课程示例 87",
+      "teacher": "教师8",
+      "department": "计算机学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_88",
+      "name": "课程示例 88",
+      "teacher": "教师1",
+      "department": "数学学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_89",
+      "name": "课程示例 89",
+      "teacher": "教师2",
+      "department": "物理学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_90",
+      "name": "课程示例 90",
+      "teacher": "教师3",
+      "department": "计算机学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_91",
+      "name": "课程示例 91",
+      "teacher": "教师4",
+      "department": "数学学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_92",
+      "name": "课程示例 92",
+      "teacher": "教师5",
+      "department": "物理学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_93",
+      "name": "课程示例 93",
+      "teacher": "教师6",
+      "department": "计算机学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_94",
+      "name": "课程示例 94",
+      "teacher": "教师7",
+      "department": "数学学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_95",
+      "name": "课程示例 95",
+      "teacher": "教师8",
+      "department": "物理学院",
+      "credit": 1,
+      "type": "course"
+    },
+    {
+      "id": "course_96",
+      "name": "课程示例 96",
+      "teacher": "教师1",
+      "department": "计算机学院",
+      "credit": 2,
+      "type": "course"
+    },
+    {
+      "id": "course_97",
+      "name": "课程示例 97",
+      "teacher": "教师2",
+      "department": "数学学院",
+      "credit": 3,
+      "type": "course"
+    },
+    {
+      "id": "course_98",
+      "name": "课程示例 98",
+      "teacher": "教师3",
+      "department": "物理学院",
+      "credit": 4,
+      "type": "course"
+    },
+    {
+      "id": "course_99",
+      "name": "课程示例 99",
+      "teacher": "教师4",
+      "department": "计算机学院",
+      "credit": 5,
+      "type": "course"
+    },
+    {
+      "id": "course_100",
+      "name": "课程示例 100",
+      "teacher": "教师5",
+      "department": "数学学院",
+      "credit": 1,
+      "type": "course"
+    }
+  ],
+  "news_sample": [
+    {
+      "id": "news_1",
+      "title": "校园新闻 1",
+      "content": "这是北京大学第1条校园新闻内容示例...",
+      "date": "2024-02-02",
+      "type": "news"
+    },
+    {
+      "id": "news_2",
+      "title": "校园新闻 2",
+      "content": "这是北京大学第2条校园新闻内容示例...",
+      "date": "2024-03-03",
+      "type": "news"
+    },
+    {
+      "id": "news_3",
+      "title": "校园新闻 3",
+      "content": "这是北京大学第3条校园新闻内容示例...",
+      "date": "2024-04-04",
+      "type": "news"
+    },
+    {
+      "id": "news_4",
+      "title": "校园新闻 4",
+      "content": "这是北京大学第4条校园新闻内容示例...",
+      "date": "2024-05-05",
+      "type": "news"
+    },
+    {
+      "id": "news_5",
+      "title": "校园新闻 5",
+      "content": "这是北京大学第5条校园新闻内容示例...",
+      "date": "2024-06-06",
+      "type": "news"
+    },
+    {
+      "id": "news_6",
+      "title": "校园新闻 6",
+      "content": "这是北京大学第6条校园新闻内容示例...",
+      "date": "2024-07-07",
+      "type": "news"
+    },
+    {
+      "id": "news_7",
+      "title": "校园新闻 7",
+      "content": "这是北京大学第7条校园新闻内容示例...",
+      "date": "2024-08-08",
+      "type": "news"
+    },
+    {
+      "id": "news_8",
+      "title": "校园新闻 8",
+      "content": "这是北京大学第8条校园新闻内容示例...",
+      "date": "2024-09-09",
+      "type": "news"
+    },
+    {
+      "id": "news_9",
+      "title": "校园新闻 9",
+      "content": "这是北京大学第9条校园新闻内容示例...",
+      "date": "2024-10-10",
+      "type": "news"
+    },
+    {
+      "id": "news_10",
+      "title": "校园新闻 10",
+      "content": "这是北京大学第10条校园新闻内容示例...",
+      "date": "2024-11-11",
+      "type": "news"
+    },
+    {
+      "id": "news_11",
+      "title": "校园新闻 11",
+      "content": "这是北京大学第11条校园新闻内容示例...",
+      "date": "2024-12-12",
+      "type": "news"
+    },
+    {
+      "id": "news_12",
+      "title": "校园新闻 12",
+      "content": "这是北京大学第12条校园新闻内容示例...",
+      "date": "2024-01-13",
+      "type": "news"
+    },
+    {
+      "id": "news_13",
+      "title": "校园新闻 13",
+      "content": "这是北京大学第13条校园新闻内容示例...",
+      "date": "2024-02-14",
+      "type": "news"
+    },
+    {
+      "id": "news_14",
+      "title": "校园新闻 14",
+      "content": "这是北京大学第14条校园新闻内容示例...",
+      "date": "2024-03-15",
+      "type": "news"
+    },
+    {
+      "id": "news_15",
+      "title": "校园新闻 15",
+      "content": "这是北京大学第15条校园新闻内容示例...",
+      "date": "2024-04-16",
+      "type": "news"
+    },
+    {
+      "id": "news_16",
+      "title": "校园新闻 16",
+      "content": "这是北京大学第16条校园新闻内容示例...",
+      "date": "2024-05-17",
+      "type": "news"
+    },
+    {
+      "id": "news_17",
+      "title": "校园新闻 17",
+      "content": "这是北京大学第17条校园新闻内容示例...",
+      "date": "2024-06-18",
+      "type": "news"
+    },
+    {
+      "id": "news_18",
+      "title": "校园新闻 18",
+      "content": "这是北京大学第18条校园新闻内容示例...",
+      "date": "2024-07-19",
+      "type": "news"
+    },
+    {
+      "id": "news_19",
+      "title": "校园新闻 19",
+      "content": "这是北京大学第19条校园新闻内容示例...",
+      "date": "2024-08-20",
+      "type": "news"
+    },
+    {
+      "id": "news_20",
+      "title": "校园新闻 20",
+      "content": "这是北京大学第20条校园新闻内容示例...",
+      "date": "2024-09-21",
+      "type": "news"
+    },
+    {
+      "id": "news_21",
+      "title": "校园新闻 21",
+      "content": "这是北京大学第21条校园新闻内容示例...",
+      "date": "2024-10-22",
+      "type": "news"
+    },
+    {
+      "id": "news_22",
+      "title": "校园新闻 22",
+      "content": "这是北京大学第22条校园新闻内容示例...",
+      "date": "2024-11-23",
+      "type": "news"
+    },
+    {
+      "id": "news_23",
+      "title": "校园新闻 23",
+      "content": "这是北京大学第23条校园新闻内容示例...",
+      "date": "2024-12-24",
+      "type": "news"
+    },
+    {
+      "id": "news_24",
+      "title": "校园新闻 24",
+      "content": "这是北京大学第24条校园新闻内容示例...",
+      "date": "2024-01-25",
+      "type": "news"
+    },
+    {
+      "id": "news_25",
+      "title": "校园新闻 25",
+      "content": "这是北京大学第25条校园新闻内容示例...",
+      "date": "2024-02-26",
+      "type": "news"
+    },
+    {
+      "id": "news_26",
+      "title": "校园新闻 26",
+      "content": "这是北京大学第26条校园新闻内容示例...",
+      "date": "2024-03-27",
+      "type": "news"
+    },
+    {
+      "id": "news_27",
+      "title": "校园新闻 27",
+      "content": "这是北京大学第27条校园新闻内容示例...",
+      "date": "2024-04-28",
+      "type": "news"
+    },
+    {
+      "id": "news_28",
+      "title": "校园新闻 28",
+      "content": "这是北京大学第28条校园新闻内容示例...",
+      "date": "2024-05-01",
+      "type": "news"
+    },
+    {
+      "id": "news_29",
+      "title": "校园新闻 29",
+      "content": "这是北京大学第29条校园新闻内容示例...",
+      "date": "2024-06-02",
+      "type": "news"
+    },
+    {
+      "id": "news_30",
+      "title": "校园新闻 30",
+      "content": "这是北京大学第30条校园新闻内容示例...",
+      "date": "2024-07-03",
+      "type": "news"
+    },
+    {
+      "id": "news_31",
+      "title": "校园新闻 31",
+      "content": "这是北京大学第31条校园新闻内容示例...",
+      "date": "2024-08-04",
+      "type": "news"
+    },
+    {
+      "id": "news_32",
+      "title": "校园新闻 32",
+      "content": "这是北京大学第32条校园新闻内容示例...",
+      "date": "2024-09-05",
+      "type": "news"
+    },
+    {
+      "id": "news_33",
+      "title": "校园新闻 33",
+      "content": "这是北京大学第33条校园新闻内容示例...",
+      "date": "2024-10-06",
+      "type": "news"
+    },
+    {
+      "id": "news_34",
+      "title": "校园新闻 34",
+      "content": "这是北京大学第34条校园新闻内容示例...",
+      "date": "2024-11-07",
+      "type": "news"
+    },
+    {
+      "id": "news_35",
+      "title": "校园新闻 35",
+      "content": "这是北京大学第35条校园新闻内容示例...",
+      "date": "2024-12-08",
+      "type": "news"
+    },
+    {
+      "id": "news_36",
+      "title": "校园新闻 36",
+      "content": "这是北京大学第36条校园新闻内容示例...",
+      "date": "2024-01-09",
+      "type": "news"
+    },
+    {
+      "id": "news_37",
+      "title": "校园新闻 37",
+      "content": "这是北京大学第37条校园新闻内容示例...",
+      "date": "2024-02-10",
+      "type": "news"
+    },
+    {
+      "id": "news_38",
+      "title": "校园新闻 38",
+      "content": "这是北京大学第38条校园新闻内容示例...",
+      "date": "2024-03-11",
+      "type": "news"
+    },
+    {
+      "id": "news_39",
+      "title": "校园新闻 39",
+      "content": "这是北京大学第39条校园新闻内容示例...",
+      "date": "2024-04-12",
+      "type": "news"
+    },
+    {
+      "id": "news_40",
+      "title": "校园新闻 40",
+      "content": "这是北京大学第40条校园新闻内容示例...",
+      "date": "2024-05-13",
+      "type": "news"
+    },
+    {
+      "id": "news_41",
+      "title": "校园新闻 41",
+      "content": "这是北京大学第41条校园新闻内容示例...",
+      "date": "2024-06-14",
+      "type": "news"
+    },
+    {
+      "id": "news_42",
+      "title": "校园新闻 42",
+      "content": "这是北京大学第42条校园新闻内容示例...",
+      "date": "2024-07-15",
+      "type": "news"
+    },
+    {
+      "id": "news_43",
+      "title": "校园新闻 43",
+      "content": "这是北京大学第43条校园新闻内容示例...",
+      "date": "2024-08-16",
+      "type": "news"
+    },
+    {
+      "id": "news_44",
+      "title": "校园新闻 44",
+      "content": "这是北京大学第44条校园新闻内容示例...",
+      "date": "2024-09-17",
+      "type": "news"
+    },
+    {
+      "id": "news_45",
+      "title": "校园新闻 45",
+      "content": "这是北京大学第45条校园新闻内容示例...",
+      "date": "2024-10-18",
+      "type": "news"
+    },
+    {
+      "id": "news_46",
+      "title": "校园新闻 46",
+      "content": "这是北京大学第46条校园新闻内容示例...",
+      "date": "2024-11-19",
+      "type": "news"
+    },
+    {
+      "id": "news_47",
+      "title": "校园新闻 47",
+      "content": "这是北京大学第47条校园新闻内容示例...",
+      "date": "2024-12-20",
+      "type": "news"
+    },
+    {
+      "id": "news_48",
+      "title": "校园新闻 48",
+      "content": "这是北京大学第48条校园新闻内容示例...",
+      "date": "2024-01-21",
+      "type": "news"
+    },
+    {
+      "id": "news_49",
+      "title": "校园新闻 49",
+      "content": "这是北京大学第49条校园新闻内容示例...",
+      "date": "2024-02-22",
+      "type": "news"
+    },
+    {
+      "id": "news_50",
+      "title": "校园新闻 50",
+      "content": "这是北京大学第50条校园新闻内容示例...",
+      "date": "2024-03-23",
+      "type": "news"
+    },
+    {
+      "id": "news_51",
+      "title": "校园新闻 51",
+      "content": "这是北京大学第51条校园新闻内容示例...",
+      "date": "2024-04-24",
+      "type": "news"
+    },
+    {
+      "id": "news_52",
+      "title": "校园新闻 52",
+      "content": "这是北京大学第52条校园新闻内容示例...",
+      "date": "2024-05-25",
+      "type": "news"
+    },
+    {
+      "id": "news_53",
+      "title": "校园新闻 53",
+      "content": "这是北京大学第53条校园新闻内容示例...",
+      "date": "2024-06-26",
+      "type": "news"
+    },
+    {
+      "id": "news_54",
+      "title": "校园新闻 54",
+      "content": "这是北京大学第54条校园新闻内容示例...",
+      "date": "2024-07-27",
+      "type": "news"
+    },
+    {
+      "id": "news_55",
+      "title": "校园新闻 55",
+      "content": "这是北京大学第55条校园新闻内容示例...",
+      "date": "2024-08-28",
+      "type": "news"
+    },
+    {
+      "id": "news_56",
+      "title": "校园新闻 56",
+      "content": "这是北京大学第56条校园新闻内容示例...",
+      "date": "2024-09-01",
+      "type": "news"
+    },
+    {
+      "id": "news_57",
+      "title": "校园新闻 57",
+      "content": "这是北京大学第57条校园新闻内容示例...",
+      "date": "2024-10-02",
+      "type": "news"
+    },
+    {
+      "id": "news_58",
+      "title": "校园新闻 58",
+      "content": "这是北京大学第58条校园新闻内容示例...",
+      "date": "2024-11-03",
+      "type": "news"
+    },
+    {
+      "id": "news_59",
+      "title": "校园新闻 59",
+      "content": "这是北京大学第59条校园新闻内容示例...",
+      "date": "2024-12-04",
+      "type": "news"
+    },
+    {
+      "id": "news_60",
+      "title": "校园新闻 60",
+      "content": "这是北京大学第60条校园新闻内容示例...",
+      "date": "2024-01-05",
+      "type": "news"
+    },
+    {
+      "id": "news_61",
+      "title": "校园新闻 61",
+      "content": "这是北京大学第61条校园新闻内容示例...",
+      "date": "2024-02-06",
+      "type": "news"
+    },
+    {
+      "id": "news_62",
+      "title": "校园新闻 62",
+      "content": "这是北京大学第62条校园新闻内容示例...",
+      "date": "2024-03-07",
+      "type": "news"
+    },
+    {
+      "id": "news_63",
+      "title": "校园新闻 63",
+      "content": "这是北京大学第63条校园新闻内容示例...",
+      "date": "2024-04-08",
+      "type": "news"
+    },
+    {
+      "id": "news_64",
+      "title": "校园新闻 64",
+      "content": "这是北京大学第64条校园新闻内容示例...",
+      "date": "2024-05-09",
+      "type": "news"
+    },
+    {
+      "id": "news_65",
+      "title": "校园新闻 65",
+      "content": "这是北京大学第65条校园新闻内容示例...",
+      "date": "2024-06-10",
+      "type": "news"
+    },
+    {
+      "id": "news_66",
+      "title": "校园新闻 66",
+      "content": "这是北京大学第66条校园新闻内容示例...",
+      "date": "2024-07-11",
+      "type": "news"
+    },
+    {
+      "id": "news_67",
+      "title": "校园新闻 67",
+      "content": "这是北京大学第67条校园新闻内容示例...",
+      "date": "2024-08-12",
+      "type": "news"
+    },
+    {
+      "id": "news_68",
+      "title": "校园新闻 68",
+      "content": "这是北京大学第68条校园新闻内容示例...",
+      "date": "2024-09-13",
+      "type": "news"
+    },
+    {
+      "id": "news_69",
+      "title": "校园新闻 69",
+      "content": "这是北京大学第69条校园新闻内容示例...",
+      "date": "2024-10-14",
+      "type": "news"
+    },
+    {
+      "id": "news_70",
+      "title": "校园新闻 70",
+      "content": "这是北京大学第70条校园新闻内容示例...",
+      "date": "2024-11-15",
+      "type": "news"
+    },
+    {
+      "id": "news_71",
+      "title": "校园新闻 71",
+      "content": "这是北京大学第71条校园新闻内容示例...",
+      "date": "2024-12-16",
+      "type": "news"
+    },
+    {
+      "id": "news_72",
+      "title": "校园新闻 72",
+      "content": "这是北京大学第72条校园新闻内容示例...",
+      "date": "2024-01-17",
+      "type": "news"
+    },
+    {
+      "id": "news_73",
+      "title": "校园新闻 73",
+      "content": "这是北京大学第73条校园新闻内容示例...",
+      "date": "2024-02-18",
+      "type": "news"
+    },
+    {
+      "id": "news_74",
+      "title": "校园新闻 74",
+      "content": "这是北京大学第74条校园新闻内容示例...",
+      "date": "2024-03-19",
+      "type": "news"
+    },
+    {
+      "id": "news_75",
+      "title": "校园新闻 75",
+      "content": "这是北京大学第75条校园新闻内容示例...",
+      "date": "2024-04-20",
+      "type": "news"
+    },
+    {
+      "id": "news_76",
+      "title": "校园新闻 76",
+      "content": "这是北京大学第76条校园新闻内容示例...",
+      "date": "2024-05-21",
+      "type": "news"
+    },
+    {
+      "id": "news_77",
+      "title": "校园新闻 77",
+      "content": "这是北京大学第77条校园新闻内容示例...",
+      "date": "2024-06-22",
+      "type": "news"
+    },
+    {
+      "id": "news_78",
+      "title": "校园新闻 78",
+      "content": "这是北京大学第78条校园新闻内容示例...",
+      "date": "2024-07-23",
+      "type": "news"
+    },
+    {
+      "id": "news_79",
+      "title": "校园新闻 79",
+      "content": "这是北京大学第79条校园新闻内容示例...",
+      "date": "2024-08-24",
+      "type": "news"
+    },
+    {
+      "id": "news_80",
+      "title": "校园新闻 80",
+      "content": "这是北京大学第80条校园新闻内容示例...",
+      "date": "2024-09-25",
+      "type": "news"
+    },
+    {
+      "id": "news_81",
+      "title": "校园新闻 81",
+      "content": "这是北京大学第81条校园新闻内容示例...",
+      "date": "2024-10-26",
+      "type": "news"
+    },
+    {
+      "id": "news_82",
+      "title": "校园新闻 82",
+      "content": "这是北京大学第82条校园新闻内容示例...",
+      "date": "2024-11-27",
+      "type": "news"
+    },
+    {
+      "id": "news_83",
+      "title": "校园新闻 83",
+      "content": "这是北京大学第83条校园新闻内容示例...",
+      "date": "2024-12-28",
+      "type": "news"
+    },
+    {
+      "id": "news_84",
+      "title": "校园新闻 84",
+      "content": "这是北京大学第84条校园新闻内容示例...",
+      "date": "2024-01-01",
+      "type": "news"
+    },
+    {
+      "id": "news_85",
+      "title": "校园新闻 85",
+      "content": "这是北京大学第85条校园新闻内容示例...",
+      "date": "2024-02-02",
+      "type": "news"
+    },
+    {
+      "id": "news_86",
+      "title": "校园新闻 86",
+      "content": "这是北京大学第86条校园新闻内容示例...",
+      "date": "2024-03-03",
+      "type": "news"
+    },
+    {
+      "id": "news_87",
+      "title": "校园新闻 87",
+      "content": "这是北京大学第87条校园新闻内容示例...",
+      "date": "2024-04-04",
+      "type": "news"
+    },
+    {
+      "id": "news_88",
+      "title": "校园新闻 88",
+      "content": "这是北京大学第88条校园新闻内容示例...",
+      "date": "2024-05-05",
+      "type": "news"
+    },
+    {
+      "id": "news_89",
+      "title": "校园新闻 89",
+      "content": "这是北京大学第89条校园新闻内容示例...",
+      "date": "2024-06-06",
+      "type": "news"
+    },
+    {
+      "id": "news_90",
+      "title": "校园新闻 90",
+      "content": "这是北京大学第90条校园新闻内容示例...",
+      "date": "2024-07-07",
+      "type": "news"
+    },
+    {
+      "id": "news_91",
+      "title": "校园新闻 91",
+      "content": "这是北京大学第91条校园新闻内容示例...",
+      "date": "2024-08-08",
+      "type": "news"
+    },
+    {
+      "id": "news_92",
+      "title": "校园新闻 92",
+      "content": "这是北京大学第92条校园新闻内容示例...",
+      "date": "2024-09-09",
+      "type": "news"
+    },
+    {
+      "id": "news_93",
+      "title": "校园新闻 93",
+      "content": "这是北京大学第93条校园新闻内容示例...",
+      "date": "2024-10-10",
+      "type": "news"
+    },
+    {
+      "id": "news_94",
+      "title": "校园新闻 94",
+      "content": "这是北京大学第94条校园新闻内容示例...",
+      "date": "2024-11-11",
+      "type": "news"
+    },
+    {
+      "id": "news_95",
+      "title": "校园新闻 95",
+      "content": "这是北京大学第95条校园新闻内容示例...",
+      "date": "2024-12-12",
+      "type": "news"
+    },
+    {
+      "id": "news_96",
+      "title": "校园新闻 96",
+      "content": "这是北京大学第96条校园新闻内容示例...",
+      "date": "2024-01-13",
+      "type": "news"
+    },
+    {
+      "id": "news_97",
+      "title": "校园新闻 97",
+      "content": "这是北京大学第97条校园新闻内容示例...",
+      "date": "2024-02-14",
+      "type": "news"
+    },
+    {
+      "id": "news_98",
+      "title": "校园新闻 98",
+      "content": "这是北京大学第98条校园新闻内容示例...",
+      "date": "2024-03-15",
+      "type": "news"
+    },
+    {
+      "id": "news_99",
+      "title": "校园新闻 99",
+      "content": "这是北京大学第99条校园新闻内容示例...",
+      "date": "2024-04-16",
+      "type": "news"
+    },
+    {
+      "id": "news_100",
+      "title": "校园新闻 100",
+      "content": "这是北京大学第100条校园新闻内容示例...",
+      "date": "2024-05-17",
+      "type": "news"
+    }
+  ]
+}

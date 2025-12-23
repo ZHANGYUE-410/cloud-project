@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "course_1",
+    "name": "课程示例 1",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_2",
+    "name": "课程示例 2",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_3",
+    "name": "课程示例 3",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_4",
+    "name": "课程示例 4",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_5",
+    "name": "课程示例 5",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_6",
+    "name": "课程示例 6",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_7",
+    "name": "课程示例 7",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_8",
+    "name": "课程示例 8",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_9",
+    "name": "课程示例 9",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_10",
+    "name": "课程示例 10",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_11",
+    "name": "课程示例 11",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_12",
+    "name": "课程示例 12",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_13",
+    "name": "课程示例 13",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_14",
+    "name": "课程示例 14",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_15",
+    "name": "课程示例 15",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_16",
+    "name": "课程示例 16",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_17",
+    "name": "课程示例 17",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_18",
+    "name": "课程示例 18",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_19",
+    "name": "课程示例 19",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_20",
+    "name": "课程示例 20",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_21",
+    "name": "课程示例 21",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_22",
+    "name": "课程示例 22",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_23",
+    "name": "课程示例 23",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_24",
+    "name": "课程示例 24",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_25",
+    "name": "课程示例 25",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_26",
+    "name": "课程示例 26",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_27",
+    "name": "课程示例 27",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_28",
+    "name": "课程示例 28",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_29",
+    "name": "课程示例 29",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_30",
+    "name": "课程示例 30",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_31",
+    "name": "课程示例 31",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_32",
+    "name": "课程示例 32",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_33",
+    "name": "课程示例 33",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_34",
+    "name": "课程示例 34",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_35",
+    "name": "课程示例 35",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_36",
+    "name": "课程示例 36",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_37",
+    "name": "课程示例 37",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_38",
+    "name": "课程示例 38",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_39",
+    "name": "课程示例 39",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_40",
+    "name": "课程示例 40",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_41",
+    "name": "课程示例 41",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_42",
+    "name": "课程示例 42",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_43",
+    "name": "课程示例 43",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_44",
+    "name": "课程示例 44",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_45",
+    "name": "课程示例 45",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_46",
+    "name": "课程示例 46",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_47",
+    "name": "课程示例 47",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_48",
+    "name": "课程示例 48",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_49",
+    "name": "课程示例 49",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_50",
+    "name": "课程示例 50",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_51",
+    "name": "课程示例 51",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_52",
+    "name": "课程示例 52",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_53",
+    "name": "课程示例 53",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_54",
+    "name": "课程示例 54",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_55",
+    "name": "课程示例 55",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_56",
+    "name": "课程示例 56",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_57",
+    "name": "课程示例 57",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_58",
+    "name": "课程示例 58",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_59",
+    "name": "课程示例 59",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_60",
+    "name": "课程示例 60",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_61",
+    "name": "课程示例 61",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_62",
+    "name": "课程示例 62",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_63",
+    "name": "课程示例 63",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_64",
+    "name": "课程示例 64",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_65",
+    "name": "课程示例 65",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_66",
+    "name": "课程示例 66",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_67",
+    "name": "课程示例 67",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_68",
+    "name": "课程示例 68",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_69",
+    "name": "课程示例 69",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_70",
+    "name": "课程示例 70",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_71",
+    "name": "课程示例 71",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_72",
+    "name": "课程示例 72",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_73",
+    "name": "课程示例 73",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_74",
+    "name": "课程示例 74",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_75",
+    "name": "课程示例 75",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_76",
+    "name": "课程示例 76",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_77",
+    "name": "课程示例 77",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_78",
+    "name": "课程示例 78",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_79",
+    "name": "课程示例 79",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_80",
+    "name": "课程示例 80",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_81",
+    "name": "课程示例 81",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_82",
+    "name": "课程示例 82",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_83",
+    "name": "课程示例 83",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_84",
+    "name": "课程示例 84",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_85",
+    "name": "课程示例 85",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_86",
+    "name": "课程示例 86",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_87",
+    "name": "课程示例 87",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_88",
+    "name": "课程示例 88",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_89",
+    "name": "课程示例 89",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_90",
+    "name": "课程示例 90",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_91",
+    "name": "课程示例 91",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_92",
+    "name": "课程示例 92",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_93",
+    "name": "课程示例 93",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_94",
+    "name": "课程示例 94",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_95",
+    "name": "课程示例 95",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_96",
+    "name": "课程示例 96",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_97",
+    "name": "课程示例 97",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_98",
+    "name": "课程示例 98",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_99",
+    "name": "课程示例 99",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_100",
+    "name": "课程示例 100",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_101",
+    "name": "课程示例 101",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_102",
+    "name": "课程示例 102",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_103",
+    "name": "课程示例 103",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_104",
+    "name": "课程示例 104",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_105",
+    "name": "课程示例 105",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_106",
+    "name": "课程示例 106",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_107",
+    "name": "课程示例 107",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_108",
+    "name": "课程示例 108",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_109",
+    "name": "课程示例 109",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_110",
+    "name": "课程示例 110",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_111",
+    "name": "课程示例 111",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_112",
+    "name": "课程示例 112",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_113",
+    "name": "课程示例 113",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_114",
+    "name": "课程示例 114",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_115",
+    "name": "课程示例 115",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_116",
+    "name": "课程示例 116",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_117",
+    "name": "课程示例 117",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_118",
+    "name": "课程示例 118",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_119",
+    "name": "课程示例 119",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_120",
+    "name": "课程示例 120",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_121",
+    "name": "课程示例 121",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_122",
+    "name": "课程示例 122",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_123",
+    "name": "课程示例 123",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_124",
+    "name": "课程示例 124",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_125",
+    "name": "课程示例 125",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_126",
+    "name": "课程示例 126",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_127",
+    "name": "课程示例 127",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_128",
+    "name": "课程示例 128",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_129",
+    "name": "课程示例 129",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_130",
+    "name": "课程示例 130",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_131",
+    "name": "课程示例 131",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_132",
+    "name": "课程示例 132",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_133",
+    "name": "课程示例 133",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_134",
+    "name": "课程示例 134",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_135",
+    "name": "课程示例 135",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_136",
+    "name": "课程示例 136",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_137",
+    "name": "课程示例 137",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_138",
+    "name": "课程示例 138",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_139",
+    "name": "课程示例 139",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_140",
+    "name": "课程示例 140",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_141",
+    "name": "课程示例 141",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_142",
+    "name": "课程示例 142",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_143",
+    "name": "课程示例 143",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_144",
+    "name": "课程示例 144",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_145",
+    "name": "课程示例 145",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_146",
+    "name": "课程示例 146",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_147",
+    "name": "课程示例 147",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_148",
+    "name": "课程示例 148",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_149",
+    "name": "课程示例 149",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_150",
+    "name": "课程示例 150",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_151",
+    "name": "课程示例 151",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_152",
+    "name": "课程示例 152",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_153",
+    "name": "课程示例 153",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_154",
+    "name": "课程示例 154",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_155",
+    "name": "课程示例 155",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_156",
+    "name": "课程示例 156",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_157",
+    "name": "课程示例 157",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_158",
+    "name": "课程示例 158",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_159",
+    "name": "课程示例 159",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_160",
+    "name": "课程示例 160",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_161",
+    "name": "课程示例 161",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_162",
+    "name": "课程示例 162",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_163",
+    "name": "课程示例 163",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_164",
+    "name": "课程示例 164",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_165",
+    "name": "课程示例 165",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_166",
+    "name": "课程示例 166",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_167",
+    "name": "课程示例 167",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_168",
+    "name": "课程示例 168",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_169",
+    "name": "课程示例 169",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_170",
+    "name": "课程示例 170",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_171",
+    "name": "课程示例 171",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_172",
+    "name": "课程示例 172",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_173",
+    "name": "课程示例 173",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_174",
+    "name": "课程示例 174",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_175",
+    "name": "课程示例 175",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_176",
+    "name": "课程示例 176",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_177",
+    "name": "课程示例 177",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_178",
+    "name": "课程示例 178",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_179",
+    "name": "课程示例 179",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_180",
+    "name": "课程示例 180",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_181",
+    "name": "课程示例 181",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_182",
+    "name": "课程示例 182",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_183",
+    "name": "课程示例 183",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_184",
+    "name": "课程示例 184",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_185",
+    "name": "课程示例 185",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_186",
+    "name": "课程示例 186",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_187",
+    "name": "课程示例 187",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_188",
+    "name": "课程示例 188",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_189",
+    "name": "课程示例 189",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_190",
+    "name": "课程示例 190",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_191",
+    "name": "课程示例 191",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_192",
+    "name": "课程示例 192",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_193",
+    "name": "课程示例 193",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_194",
+    "name": "课程示例 194",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_195",
+    "name": "课程示例 195",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_196",
+    "name": "课程示例 196",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_197",
+    "name": "课程示例 197",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_198",
+    "name": "课程示例 198",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_199",
+    "name": "课程示例 199",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_200",
+    "name": "课程示例 200",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_201",
+    "name": "课程示例 201",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_202",
+    "name": "课程示例 202",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_203",
+    "name": "课程示例 203",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_204",
+    "name": "课程示例 204",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_205",
+    "name": "课程示例 205",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_206",
+    "name": "课程示例 206",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_207",
+    "name": "课程示例 207",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_208",
+    "name": "课程示例 208",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_209",
+    "name": "课程示例 209",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_210",
+    "name": "课程示例 210",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_211",
+    "name": "课程示例 211",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_212",
+    "name": "课程示例 212",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_213",
+    "name": "课程示例 213",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_214",
+    "name": "课程示例 214",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_215",
+    "name": "课程示例 215",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_216",
+    "name": "课程示例 216",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_217",
+    "name": "课程示例 217",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_218",
+    "name": "课程示例 218",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_219",
+    "name": "课程示例 219",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_220",
+    "name": "课程示例 220",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_221",
+    "name": "课程示例 221",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_222",
+    "name": "课程示例 222",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_223",
+    "name": "课程示例 223",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_224",
+    "name": "课程示例 224",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_225",
+    "name": "课程示例 225",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_226",
+    "name": "课程示例 226",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_227",
+    "name": "课程示例 227",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_228",
+    "name": "课程示例 228",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_229",
+    "name": "课程示例 229",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_230",
+    "name": "课程示例 230",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_231",
+    "name": "课程示例 231",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_232",
+    "name": "课程示例 232",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_233",
+    "name": "课程示例 233",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_234",
+    "name": "课程示例 234",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_235",
+    "name": "课程示例 235",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_236",
+    "name": "课程示例 236",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_237",
+    "name": "课程示例 237",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_238",
+    "name": "课程示例 238",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_239",
+    "name": "课程示例 239",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_240",
+    "name": "课程示例 240",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_241",
+    "name": "课程示例 241",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_242",
+    "name": "课程示例 242",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_243",
+    "name": "课程示例 243",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_244",
+    "name": "课程示例 244",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_245",
+    "name": "课程示例 245",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_246",
+    "name": "课程示例 246",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_247",
+    "name": "课程示例 247",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_248",
+    "name": "课程示例 248",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_249",
+    "name": "课程示例 249",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_250",
+    "name": "课程示例 250",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_251",
+    "name": "课程示例 251",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_252",
+    "name": "课程示例 252",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_253",
+    "name": "课程示例 253",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_254",
+    "name": "课程示例 254",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_255",
+    "name": "课程示例 255",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_256",
+    "name": "课程示例 256",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_257",
+    "name": "课程示例 257",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_258",
+    "name": "课程示例 258",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_259",
+    "name": "课程示例 259",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_260",
+    "name": "课程示例 260",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_261",
+    "name": "课程示例 261",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_262",
+    "name": "课程示例 262",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_263",
+    "name": "课程示例 263",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_264",
+    "name": "课程示例 264",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_265",
+    "name": "课程示例 265",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_266",
+    "name": "课程示例 266",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_267",
+    "name": "课程示例 267",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_268",
+    "name": "课程示例 268",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_269",
+    "name": "课程示例 269",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_270",
+    "name": "课程示例 270",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_271",
+    "name": "课程示例 271",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_272",
+    "name": "课程示例 272",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_273",
+    "name": "课程示例 273",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_274",
+    "name": "课程示例 274",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_275",
+    "name": "课程示例 275",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_276",
+    "name": "课程示例 276",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_277",
+    "name": "课程示例 277",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_278",
+    "name": "课程示例 278",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_279",
+    "name": "课程示例 279",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_280",
+    "name": "课程示例 280",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_281",
+    "name": "课程示例 281",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_282",
+    "name": "课程示例 282",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_283",
+    "name": "课程示例 283",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_284",
+    "name": "课程示例 284",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_285",
+    "name": "课程示例 285",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_286",
+    "name": "课程示例 286",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_287",
+    "name": "课程示例 287",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_288",
+    "name": "课程示例 288",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_289",
+    "name": "课程示例 289",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_290",
+    "name": "课程示例 290",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_291",
+    "name": "课程示例 291",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_292",
+    "name": "课程示例 292",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_293",
+    "name": "课程示例 293",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_294",
+    "name": "课程示例 294",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_295",
+    "name": "课程示例 295",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_296",
+    "name": "课程示例 296",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_297",
+    "name": "课程示例 297",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_298",
+    "name": "课程示例 298",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_299",
+    "name": "课程示例 299",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_300",
+    "name": "课程示例 300",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_301",
+    "name": "课程示例 301",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_302",
+    "name": "课程示例 302",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_303",
+    "name": "课程示例 303",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_304",
+    "name": "课程示例 304",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_305",
+    "name": "课程示例 305",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_306",
+    "name": "课程示例 306",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_307",
+    "name": "课程示例 307",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_308",
+    "name": "课程示例 308",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_309",
+    "name": "课程示例 309",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_310",
+    "name": "课程示例 310",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_311",
+    "name": "课程示例 311",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_312",
+    "name": "课程示例 312",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_313",
+    "name": "课程示例 313",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_314",
+    "name": "课程示例 314",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_315",
+    "name": "课程示例 315",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_316",
+    "name": "课程示例 316",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_317",
+    "name": "课程示例 317",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_318",
+    "name": "课程示例 318",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_319",
+    "name": "课程示例 319",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_320",
+    "name": "课程示例 320",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_321",
+    "name": "课程示例 321",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_322",
+    "name": "课程示例 322",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_323",
+    "name": "课程示例 323",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_324",
+    "name": "课程示例 324",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_325",
+    "name": "课程示例 325",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_326",
+    "name": "课程示例 326",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_327",
+    "name": "课程示例 327",
+    "teacher": "教师8",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_328",
+    "name": "课程示例 328",
+    "teacher": "教师1",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_329",
+    "name": "课程示例 329",
+    "teacher": "教师2",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_330",
+    "name": "课程示例 330",
+    "teacher": "教师3",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_331",
+    "name": "课程示例 331",
+    "teacher": "教师4",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_332",
+    "name": "课程示例 332",
+    "teacher": "教师5",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_333",
+    "name": "课程示例 333",
+    "teacher": "教师6",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_334",
+    "name": "课程示例 334",
+    "teacher": "教师7",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_335",
+    "name": "课程示例 335",
+    "teacher": "教师8",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_336",
+    "name": "课程示例 336",
+    "teacher": "教师1",
+    "department": "计算机学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_337",
+    "name": "课程示例 337",
+    "teacher": "教师2",
+    "department": "数学学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_338",
+    "name": "课程示例 338",
+    "teacher": "教师3",
+    "department": "物理学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_339",
+    "name": "课程示例 339",
+    "teacher": "教师4",
+    "department": "计算机学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_340",
+    "name": "课程示例 340",
+    "teacher": "教师5",
+    "department": "数学学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_341",
+    "name": "课程示例 341",
+    "teacher": "教师6",
+    "department": "物理学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_342",
+    "name": "课程示例 342",
+    "teacher": "教师7",
+    "department": "计算机学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_343",
+    "name": "课程示例 343",
+    "teacher": "教师8",
+    "department": "数学学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_344",
+    "name": "课程示例 344",
+    "teacher": "教师1",
+    "department": "物理学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_345",
+    "name": "课程示例 345",
+    "teacher": "教师2",
+    "department": "计算机学院",
+    "credit": 1,
+    "type": "course"
+  },
+  {
+    "id": "course_346",
+    "name": "课程示例 346",
+    "teacher": "教师3",
+    "department": "数学学院",
+    "credit": 2,
+    "type": "course"
+  },
+  {
+    "id": "course_347",
+    "name": "课程示例 347",
+    "teacher": "教师4",
+    "department": "物理学院",
+    "credit": 3,
+    "type": "course"
+  },
+  {
+    "id": "course_348",
+    "name": "课程示例 348",
+    "teacher": "教师5",
+    "department": "计算机学院",
+    "credit": 4,
+    "type": "course"
+  },
+  {
+    "id": "course_349",
+    "name": "课程示例 349",
+    "teacher": "教师6",
+    "department": "数学学院",
+    "credit": 5,
+    "type": "course"
+  },
+  {
+    "id": "course_350",
+    "name": "课程示例 350",
+    "teacher": "教师7",
+    "department": "物理学院",
+    "credit": 1,
+    "type": "course"
+  }
+]

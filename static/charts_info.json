@@ -1,0 +1,22 @@
+[
+  {
+    "name": "数据分布",
+    "file": "data_distribution.png",
+    "desc": "各类数据数量对比"
+  },
+  {
+    "name": "图书类别",
+    "file": "book_categories.png",
+    "desc": "图书类别占比分布"
+  },
+  {
+    "name": "课程学分",
+    "file": "course_credits.png",
+    "desc": "不同学分课程数量"
+  },
+  {
+    "name": "新闻趋势",
+    "file": "news_trend.png",
+    "desc": "新闻发布时间趋势"
+  }
+]
