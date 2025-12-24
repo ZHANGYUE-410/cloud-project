@@ -1,9 +1,15 @@
-print("\n[1/4] 开始爬取数据...")
+# main.py
+import os
+import time
+from datetime import datetime
+
+# 导入所有依赖函数
 from crawler import run_crawler
-stats = run_crawler()  # 调用新的爬虫
+from processor import run_processing
+from visualizer import run_visualization
+from app import app
 
 def main():
-    """主函数"""
     print("=" * 50)
     print("北京大学校园数据分析平台")
     print("=" * 50)
@@ -11,30 +17,30 @@ def main():
     try:
         # 1. 爬取数据
         print("\n[1/4] 开始爬取数据...")
-        from crawler import run_crawler
-        run_crawler()
+        stats_crawl = run_crawler()
         
         # 2. 处理数据
         print("\n[2/4] 开始处理数据...")
-        from processor import run_processing
-        run_processing()
+        analysis = run_processing()
         
         # 3. 生成可视化
         print("\n[3/4] 生成可视化图表...")
-        from visualizer import run_visualization
         run_visualization()
         
-        # 4. 启动Web服务
+        # 4. 启动Web服务（关键：host=0.0.0.0）
         print("\n[4/4] 启动Web服务...")
-        print("✅ 平台已启动！访问 http://localhost:5000")
-        print("📊 数据统计已保存到 data/statistics.json")
-        
-        # 启动Flask应用
-        from app import app
+        print("✅ 平台已启动！访问 http://0.0.0.0:5000")
         app.run(host='0.0.0.0', port=5000, debug=False)
         
     except Exception as e:
-        print(f"❌ 运行出错: {e}")
+        print(f"❌ 运行出错: {str(e)}")
+        raise
 
 if __name__ == "__main__":
+    # 确保数据目录存在
+    os.makedirs('data/raw', exist_ok=True)
+    os.makedirs('data/processed', exist_ok=True)
+    os.makedirs('static', exist_ok=True)
+    os.makedirs('templates', exist_ok=True)
+    
     main()

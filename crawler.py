@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
+import os 
 import json
 import re
 from datetime import datetime, timedelta
@@ -53,20 +54,17 @@ class RealPKUCrawler:
                     for i, item in enumerate(book_items[:50]):  # 先取50个
                         try:
                             # 提取图书信息
-                            text = item.get_text(strip=True)
-                            
+                            text = item.get_text(strip=True)                           
                             # 尝试提取标题
                             title_match = re.search(r'《([^》]+)》', text)
-                            title = title_match.group(1) if title_match else f"北京大学图书{i+1}"
-                            
+                            title = title_match.group(1) if title_match else f"北京大学图书{i+1}"                           
                             # 尝试提取作者
                             author_match = re.search(r'作者[：:]\s*([^\s,，]+)', text)
-                            author = author_match.group(1) if author_match else "北大作者"
-                            
+                            author = author_match.group(1) if author_match else "北大作者"                           
                             # 尝试提取出版社
                             publisher_match = re.search(r'出版社[：:]\s*([^\s,，]+)', text)
                             publisher = publisher_match.group(1) if publisher_match else "北京大学出版社"
-                            
+
                             books.append({
                                 "book_id": f"lib_{len(books)+1:04d}",
                                 "title": title,
@@ -80,21 +78,16 @@ class RealPKUCrawler:
                                 "type": "book"
                             })
                         except Exception as e:
-                            continue
-                
-                print(f"✅ 从图书馆爬取到 {len(books)} 本图书")
-                
+                            continue                
+                print(f"✅ 从图书馆爬取到 {len(books)} 本图书")               
                 # 如果爬取数量不足，补充一些真实相关的图书
                 if len(books) < 100:
-                    books.extend(self.generate_pku_books(100 - len(books)))
-                    
+                    books.extend(self.generate_pku_books(100 - len(books)))                   
         except Exception as e:
             print(f"⚠️ 图书馆爬取遇到问题: {e}")
             # 生成备用数据
-            books = self.generate_pku_books(100)
-        
-        return books
-    
+            books = self.generate_pku_books(100)        
+        return books   
     def crawl_pku_news(self, max_pages=3):
         """爬取北京大学新闻"""
         print("📰 爬取北京大学新闻...")
@@ -106,29 +99,24 @@ class RealPKUCrawler:
             "http://news.pku.edu.cn/xwzh/zyxw.htm",  # 重要新闻
             "http://news.pku.edu.cn/xwzh/mtjj.htm",  # 媒体聚焦
             "http://news.pku.edu.cn/xwzh/xyxw.htm",  # 校园新闻
-        ]
-        
+        ]        
         for section_url in news_sections:
             try:
                 response = self.session.get(section_url, timeout=10)
-                response.encoding = 'utf-8'
-                
+                response.encoding = 'utf-8'              
                 if response.status_code == 200:
-                    soup = BeautifulSoup(response.text, 'html.parser')
-                    
+                    soup = BeautifulSoup(response.text, 'html.parser')                   
                     # 尝试不同的新闻选择器
                     news_selectors = [
                         '.news-list li', '.list li', '.article-list li',
                         'ul li a', '.item', '.news-item'
-                    ]
-                    
+                    ]                    
                     news_items = None
                     for selector in news_selectors:
                         items = soup.select(selector)
                         if len(items) > 3:
                             news_items = items
-                            break
-                    
+                            break                    
                     if news_items:
                         for item in news_items[:20]:  # 每个栏目取20条
                             try:
@@ -142,16 +130,13 @@ class RealPKUCrawler:
                                         if href.startswith('/'):
                                             href = f"http://news.pku.edu.cn{href}"
                                         else:
-                                            href = f"http://news.pku.edu.cn/xwzh/{href}"
-                                    
+                                            href = f"http://news.pku.edu.cn/xwzh/{href}"                                   
                                     # 提取日期
                                     date_match = re.search(r'(\d{4}-\d{2}-\d{2})', str(item))
-                                    date = date_match.group(1) if date_match else datetime.now().strftime("%Y-%m-%d")
-                                    
+                                    date = date_match.group(1) if date_match else datetime.now().strftime("%Y-%m-%d")                                    
                                     # 提取摘要（如果有）
                                     summary_elem = item.select_one('.summary, .intro, .description')
-                                    summary = summary_elem.get_text(strip=True) if summary_elem else f"北京大学相关新闻：{title}"
-                                    
+                                    summary = summary_elem.get_text(strip=True) if summary_elem else f"北京大学相关新闻：{title}"                                    
                                     news_list.append({
                                         "news_id": f"news_{len(news_list)+1:04d}",
                                         "title": title[:100],  # 限制长度
@@ -165,13 +150,11 @@ class RealPKUCrawler:
                                     })
                             except Exception as e:
                                 continue
-                
-                time.sleep(1)  # 礼貌爬取
-                
+
+                time.sleep(1)  # 礼貌爬取                
             except Exception as e:
                 print(f"⚠️ 新闻栏目爬取失败 {section_url}: {e}")
-                continue
-        
+                continue        
         print(f"✅ 爬取到 {len(news_list)} 条新闻")
         
         # 补充新闻数据
@@ -296,14 +279,11 @@ class RealPKUCrawler:
                 "source": "北京大学文献资料",
                 "type": "book",
                 "crawl_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            })
-        
-        return books
-    
+            })        
+        return books   
     def generate_pku_news(self, count):
         """生成北京大学相关新闻"""
-        news_list = []
-        
+        news_list = []       
         news_templates = [
             "北京大学召开{subject}会议",
             "北大{subject}研究成果在{journal}发表",
@@ -315,14 +295,12 @@ class RealPKUCrawler:
             "北大{activity}活动圆满举行",
             "北京大学{field}研究取得突破",
             "{leader}视察北京大学"
-        ]
-        
+        ]       
         subjects = ["学术", "科研", "教学", "国际交流", "人才培养", "学科建设"]
         departments = ["计算机学院", "数学科学学院", "物理学院", "化学学院", "生命科学学院",
                       "经济学院", "法学院", "光华管理学院", "新闻与传播学院", "国际关系学院"]
         journals = ["《自然》", "《科学》", "《细胞》", "《美国科学院院刊》", "《中国社会科学》"]
-        activities = ["学术讲座", "国际会议", "文化节", "创新大赛", "学术论坛"]
-        
+        activities = ["学术讲座", "国际会议", "文化节", "创新大赛", "学术论坛"]        
         for i in range(count):
             template = random.choice(news_templates)
             title = template.format(
@@ -352,14 +330,11 @@ class RealPKUCrawler:
                 "source": "北京大学新闻网（模拟）",
                 "type": "news",
                 "crawl_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            })
-        
-        return news_list
-    
+            })        
+        return news_list    
     def generate_pku_courses(self, count):
         """生成北京大学课程数据"""
-        courses = []
-        
+        courses = []        
         course_names = [
             "计算概论", "数据结构与算法", "人工智能导论", "机器学习", "深度学习",
             "高等数学", "线性代数", "概率统计", "大学物理", "普通化学",
@@ -367,20 +342,17 @@ class RealPKUCrawler:
             "文学概论", "艺术导论", "社会学概论", "心理学导论", "政治学原理",
             "计算机组成", "操作系统", "计算机网络", "数据库系统", "软件工程",
             "数字电路", "信号处理", "自动控制", "通信原理", "电子技术"
-        ]
-        
+        ]        
         departments = [
             "计算机科学与技术学院", "数学科学学院", "物理学院", "化学与分子工程学院",
             "生命科学学院", "城市与环境学院", "心理与认知科学学院", "中国语言文学系",
             "历史学系", "哲学系", "国际关系学院", "法学院", "经济学院",
             "光华管理学院", "新闻与传播学院", "艺术学院", "社会学系"
-        ]
-        
+        ]        
         teachers = [
             "张明", "李华", "王强", "刘洋", "陈静", "赵宇", "周涛", "吴帆",
             "郑洁", "孙磊", "钱勇", "冯军", "韩梅", "杨光", "朱红", "秦峰"
-        ]
-        
+        ]        
         for i in range(count):
             course_name = random.choice(course_names)
             if i > 0 and i % 10 == 0:
@@ -399,23 +371,18 @@ class RealPKUCrawler:
                 "description": f"北京大学{course_name}课程，旨在培养学生相关能力。",
                 "source": "北京大学课程信息",
                 "crawl_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            })
-        
-        return courses
-    
+            })        
+        return courses   
     def generate_pku_notices(self, count):
         """生成通知公告"""
-        notices = []
-        
+        notices = []        
         notice_types = [
             "学术讲座通知", "会议通知", "放假通知", "选课通知", "考试安排",
             "成绩查询通知", "奖学金申请", "项目申报", "招聘信息", "活动通知",
             "系统维护通知", "校园施工通知", "安全提示", "防疫通知", "缴费通知"
-        ]
-        
+        ]        
         for i in range(count):
-            notice_type = random.choice(notice_types)
-            
+            notice_type = random.choice(notice_types)            
             # 生成未来或近期的日期
             days_offset = random.randint(-30, 30)
             notice_date = (datetime.now() + timedelta(days=days_offset)).strftime("%Y-%m-%d")
@@ -429,18 +396,15 @@ class RealPKUCrawler:
                 "category": notice_type,
                 "source": "北京大学相关部门",
                 "crawl_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            })
-        
-        return notices
-    
+            })       
+        return notices    
     def get_book_category(self, index):
         """获取图书分类"""
         categories = [
             "社会科学", "自然科学", "工程技术", "文学艺术", "历史地理",
             "哲学宗教", "经济管理", "教育体育", "医药卫生", "综合性图书"
         ]
-        return categories[index % len(categories)]
-    
+        return categories[index % len(categories)]   
     def get_news_category(self, url):
         """根据URL获取新闻分类"""
         if "zyxw" in url:
@@ -450,8 +414,7 @@ class RealPKUCrawler:
         elif "xyxw" in url:
             return "校园新闻"
         else:
-            return "综合新闻"
-    
+            return "综合新闻"    
     def get_news_category_by_title(self, title):
         """根据标题判断新闻分类"""
         keywords = {
@@ -462,29 +425,23 @@ class RealPKUCrawler:
             "获奖": "荣誉表彰",
             "合作": "国际交流",
             "视察": "领导关怀"
-        }
-        
+        }        
         for key, category in keywords.items():
             if key in title:
-                return category
-        
-        return "校园动态"
-    
+                return category        
+        return "校园动态"   
     def save_all_data(self, books, news, courses, notices):
         """保存所有数据"""
-        os.makedirs("data/raw", exist_ok=True)
-        
+        os.makedirs("data/raw", exist_ok=True)       
         # 合并所有数据
-        all_data = []
-        
+        all_data = []       
         # 转换并保存每种数据
         data_types = [
             ("books", books, ["title", "author", "category", "year"]),
             ("news", news, ["title", "date", "category", "summary"]),
             ("courses", courses, ["name", "teacher", "department", "credit"]),
             ("notices", notices, ["title", "date", "category", "content"])
-        ]
-        
+        ]        
         for data_name, data_list, key_fields in data_types:
             if data_list:
                 df = pd.DataFrame(data_list)
@@ -495,40 +452,30 @@ class RealPKUCrawler:
                 with open(json_path, 'w', encoding='utf-8') as f:
                     json.dump(data_list, f, ensure_ascii=False, indent=2)
                 
-                print(f"💾 保存{data_name}: {len(data_list)}条 -> {csv_path}")
-                
+                print(f"💾 保存{data_name}: {len(data_list)}条 -> {csv_path}")                
                 # 添加到总数据
                 for item in data_list:
                     all_data.append(item)
         
-        return all_data
-    
+        return all_data    
     def run(self):
         """运行爬虫"""
         print("=" * 60)
         print("北京大学真实数据爬取系统")
         print("=" * 60)
-        
         start_time = time.time()
-        
         # 爬取所有数据
-        print("\n🚀 开始爬取数据...")
-        
+        print("\n🚀 开始爬取数据...")        
         books = self.crawl_library_books()
-        time.sleep(2)
-        
+        time.sleep(2)        
         news = self.crawl_pku_news()
-        time.sleep(2)
-        
+        time.sleep(2)        
         courses = self.crawl_course_info()
-        time.sleep(1)
-        
-        notices = self.crawl_notices()
-        
+        time.sleep(1)        
+        notices = self.crawl_notices()        
         # 保存数据
         print("\n💾 保存数据...")
-        all_data = self.save_all_data(books, news, courses, notices)
-        
+        all_data = self.save_all_data(books, news, courses, notices)        
         # 生成统计信息
         total = len(all_data)
         stats = {
@@ -546,12 +493,10 @@ class RealPKUCrawler:
                 "北京大学通知公告"
             ],
             "note": "数据包含真实爬取和基于真实信息的模拟数据"
-        }
-        
+        }        
         # 保存统计
         with open("data/statistics.json", "w", encoding='utf-8') as f:
-            json.dump(stats, f, ensure_ascii=False, indent=2)
-        
+            json.dump(stats, f, ensure_ascii=False, indent=2)        
         print("\n" + "=" * 60)
         print("✅ 数据爬取完成!")
         print(f"📊 统计数据:")
@@ -561,14 +506,11 @@ class RealPKUCrawler:
         print(f"   课程数据: {len(courses)}条")
         print(f"   公告数据: {len(notices)}条")
         print(f"⏱️  耗时: {stats['execution_time']}秒")
-        print("=" * 60)
-        
+        print("=" * 60)        
         return stats
-
 def run_crawler():
     """运行爬虫的外部接口"""
     crawler = RealPKUCrawler()
     return crawler.run()
-
 if __name__ == "__main__":
     run_crawler()

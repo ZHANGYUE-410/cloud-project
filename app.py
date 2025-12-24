@@ -1,159 +1,142 @@
-"""
-Web应用 - 数据展示界面
-"""
+# app.py
 from flask import Flask, render_template, jsonify
-import json
+import pandas as pd
 import os
+import json
+import warnings
 
-app = Flask(__name__)
+# 忽略无关警告
+warnings.filterwarnings('ignore')
 
+# 初始化Flask应用
+app = Flask(__name__, 
+            template_folder='templates',  # 指定模板目录
+            static_folder='static')       # 指定静态资源目录
+
+# ===================== 目录初始化 =====================
+# 确保所有必要目录存在
+required_dirs = [
+    'data/raw',
+    'data/processed',
+    'data/visualizations',
+    'static/images',
+    'templates'
+]
+for dir_path in required_dirs:
+    os.makedirs(dir_path, exist_ok=True)
+
+# ===================== 全局工具函数 =====================
+def load_json_data(file_path):
+    """安全加载JSON文件"""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+def load_csv_sample(file_path, sample_size=10):
+    """加载CSV文件的样本数据"""
+    try:
+        df = pd.read_csv(file_path, encoding='utf-8')
+        # 处理空值
+        df = df.fillna('未知')
+        # 转换为字典（仅返回前N条）
+        return df.head(sample_size).to_dict('records')
+    except FileNotFoundError:
+        return []
+
+# ===================== 路由定义 =====================
 @app.route('/')
 def index():
-    """首页"""
-    # 加载统计数据
-    with open('data/statistics.json', 'r', encoding='utf-8') as f:
-        stats = json.load(f)
+    """主页面：加载统计数据、分析结果、图表信息"""
+    print("📱 访问主页面...")
     
-    # 加载分析结果
-    with open('data/analysis.json', 'r', encoding='utf-8') as f:
-        analysis = json.load(f)
-    
-    # 加载图表信息
-    with open('static/charts_info.json', 'r', encoding='utf-8') as f:
-        charts = json.load(f)
-    
+    # 1. 加载统计数据（爬虫生成）
+    stats = load_json_data('data/statistics.json')
+    # 补充默认值（避免数据缺失导致页面报错）
+    stats_default = {
+        'books_count': 0,
+        'courses_count': 0,
+        'news_count': 0,
+        'notices_count': 0,
+        'summary': {'total_records': 0}
+    }
+    stats = {**stats_default, **stats}
+
+    # 2. 加载分析结果（处理器生成）
+    analysis = load_json_data('data/analysis.json')
+
+    # 3. 加载图表列表（匹配visualizer.py生成的图表）
+    charts = [
+        {"name": "图书分类分布", "file": "book_category.png", "desc": "Top10图书分类的数量分布"},
+        {"name": "课程学分分布", "file": "course_credit.png", "desc": "课程学分的占比情况"},
+        {"name": "新闻发布趋势", "file": "news_trend.png", "desc": "新闻发布的月度变化趋势"},
+        {"name": "公告类型分布", "file": "notice_type.png", "desc": "各类公告的数量分布"}
+    ]
+
+    # 渲染模板
     return render_template('index.html', 
-                         stats=stats, 
-                         analysis=analysis,
-                         charts=charts)
+                           stats=stats, 
+                           analysis=analysis, 
+                           charts=charts)
 
-@app.route('/api/data')
-def get_data():
-    """获取数据API"""
-    try:
-        # 返回前100条数据样本
-        with open('data/samples.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        return jsonify(data)
-    except:
-        return jsonify({"error": "数据加载失败"})
+@app.route('/api/samples')
+def get_samples():
+    """获取所有数据类型的样本（供前端展示）"""
+    print("📊 加载数据样本...")
+    return jsonify({
+        'books_sample': load_csv_sample('data/processed/books_clean.csv'),
+        'courses_sample': load_csv_sample('data/processed/courses_clean.csv'),
+        'news_sample': load_csv_sample('data/processed/news_clean.csv'),
+        'notices_sample': load_csv_sample('data/processed/notices_clean.csv')
+    })
 
-@app.route('/api/stats')
-def get_stats():
-    """获取统计API"""
-    try:
-        with open('data/statistics.json', 'r', encoding='utf-8') as f:
-            stats = json.load(f)
-        return jsonify(stats)
-    except:
-        return jsonify({"error": "统计加载失败"})
+@app.route('/api/books')
+def get_books():
+    """获取图书完整数据"""
+    return jsonify(load_csv_sample('data/processed/books_clean.csv', 100))
 
-@app.route('/api/charts')
-def get_charts():
-    """获取图表列表API"""
-    try:
-        with open('static/charts_info.json', 'r', encoding='utf-8') as f:
-            charts = json.load(f)
-        return jsonify(charts)
-    except:
-        return jsonify([])
+@app.route('/api/courses')
+def get_courses():
+    """获取课程完整数据"""
+    return jsonify(load_csv_sample('data/processed/courses_clean.csv', 100))
 
+@app.route('/api/news')
+def get_news():
+    """获取新闻完整数据"""
+    return jsonify(load_csv_sample('data/processed/news_clean.csv', 100))
+
+@app.route('/api/notices')
+def get_notices():
+    """获取公告完整数据"""
+    return jsonify(load_csv_sample('data/processed/notices_clean.csv', 100))
+
+@app.route('/api/health')
+def health_check():
+    """健康检查接口（供部署平台检测）"""
+    return jsonify({
+        'status': 'healthy',
+        'timestamp': pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'data_dir_exists': os.path.exists('data')
+    })
+
+# ===================== 错误处理 =====================
+@app.errorhandler(404)
+def page_not_found(e):
+    """404页面"""
+    return render_template('404.html'), 404
+
+@app.errorhandler(500)
+def server_error(e):
+    """500页面"""
+    return render_template('500.html'), 500
+
+# ===================== 启动配置 =====================
 if __name__ == '__main__':
-    # 创建必要目录
-    os.makedirs('data/raw', exist_ok=True)
-    os.makedirs('data/processed', exist_ok=True)
-    os.makedirs('static', exist_ok=True)
-    
-    # 简单HTML模板
-    html_template = '''
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>北京大学校园数据分析平台</title>
-        <style>
-            body { font-family: Arial; margin: 20px; background: #f5f5f5; }
-            .container { max-width: 1200px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
-            h1 { color: #333; text-align: center; }
-            .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px 0; }
-            .stat-card { background: #4ECDC4; color: white; padding: 20px; border-radius: 8px; text-align: center; }
-            .charts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-            .chart img { width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-            .data-sample { background: #f8f9fa; padding: 15px; border-radius: 8px; margin: 10px 0; }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <h1>📊 北京大学校园数据分析平台</h1>
-            
-            <div class="stats">
-                <div class="stat-card">
-                    <h3>📚 图书数据</h3>
-                    <h2>{{ stats.books }}</h2>
-                    <p>条记录</p>
-                </div>
-                <div class="stat-card">
-                    <h3>📝 课程数据</h3>
-                    <h2>{{ stats.courses }}</h2>
-                    <p>条记录</p>
-                </div>
-                <div class="stat-card">
-                    <h3>📰 新闻数据</h3>
-                    <h2>{{ stats.news }}</h2>
-                    <p>条记录</p>
-                </div>
-            </div>
-            
-            <h2>📈 可视化图表</h2>
-            <div class="charts">
-                {% for chart in charts %}
-                <div class="chart">
-                    <h3>{{ chart.name }}</h3>
-                    <p>{{ chart.desc }}</p>
-                    <img src="/static/{{ chart.file }}" alt="{{ chart.name }}">
-                </div>
-                {% endfor %}
-            </div>
-            
-            <h2>📋 数据样本（前10条）</h2>
-            <div id="data-sample">
-                <p>加载中...</p>
-            </div>
-        </div>
-        
-        <script>
-            // 加载数据样本
-            fetch('/api/data')
-                .then(res => res.json())
-                .then(data => {
-                    let html = '';
-                    // 显示图书样本
-                    html += '<h3>📚 图书样本</h3>';
-                    data.books_sample.slice(0,10).forEach(book => {
-                        html += `<div class="data-sample">
-                            <strong>${book.title}</strong> - ${book.author}<br>
-                            类别: ${book.category} | 年份: ${book.year}
-                        </div>`;
-                    });
-                    
-                    // 显示课程样本
-                    html += '<h3>📝 课程样本</h3>';
-                    data.courses_sample.slice(0,10).forEach(course => {
-                        html += `<div class="data-sample">
-                            <strong>${course.name}</strong> - ${course.teacher}<br>
-                            院系: ${course.department} | 学分: ${course.credit}
-                        </div>`;
-                    });
-                    
-                    document.getElementById('data-sample').innerHTML = html;
-                });
-        </script>
-    </body>
-    </html>
-    '''
-    
-    # 保存HTML模板
-    os.makedirs('templates', exist_ok=True)
-    with open('templates/index.html', 'w', encoding='utf-8') as f:
-        f.write(html_template)
-    
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    # 本地运行配置（部署时由main.py调用）
+    app.run(
+        host='0.0.0.0',    # 允许外部访问
+        port=5000,         # 端口
+        debug=False,       # 生产环境关闭debug
+        threaded=True      # 开启多线程
+    )
