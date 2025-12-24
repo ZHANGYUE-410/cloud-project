@@ -25,4 +25,4 @@ RUN mkdir -p data/raw data/processed static templates
 EXPOSE 5000
 
 # 启动主程序
-CMD ["python", "main.py"]
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:8080", "app:app"]
