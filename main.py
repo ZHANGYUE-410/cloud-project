@@ -8,6 +8,8 @@ from crawler import run_crawler
 from processor import run_processing
 from visualizer import run_visualization
 from app import app
+import os
+stats = run_crawler()  # 调用新的爬虫
 
 def main():
     print("=" * 50)
@@ -43,4 +45,5 @@ if __name__ == "__main__":
     os.makedirs('static', exist_ok=True)
     os.makedirs('templates', exist_ok=True)
     
+    main()
     main()
